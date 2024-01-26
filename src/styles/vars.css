@@ -1,0 +1,10 @@
+:root{
+    /* Fonts*/
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /*Colors*/
+    --cinzinha: #121212;
+    --azul:rgb(8, 15, 68);
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+}
