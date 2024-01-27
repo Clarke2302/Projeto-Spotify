@@ -90,7 +90,7 @@ body{
     margin: 24px 10px;
 }
 
-.playlist{
+.section-playlist{
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -104,26 +104,26 @@ body{
     border-radius:10px;
 }
 
-.playlist .playlist-content{
+.section-playlist .section-playlist-content{
     display:flex;
     flex-direction: column;
 }
 
-.playlist .playlist-content .text{
+.section-playlist .section-playlist-content .text{
     padding-bottom:14px;
     color:#FFF;
 }
 
-.playlist-content .title{
+.section-playlist-content .title{
     font-weight: 700;
 }
 
-.playlist-content .subtitle{
+.section-playlist-content .subtitle{
     font-weight: 500;
     font-size: 12px;
 }
 
-.playlist-content .playlist-button{
+.section-playlist-content .section-playlist-button{
     display: flex;
     justify-content: center;
     background-color: #FFF;
@@ -154,17 +154,15 @@ body{
     text-decoration: underline;
 }
 
-.languages .languages__button{
-    align-items: center;
-    background-color: transparent;
-    border: 1px solid #878787;
-    color:#FFF;
+.languages .languages-button{
+    background-color: black;
+    color:white;
     font-weight: bold;
     cursor:pointer;
-    width: 170px;
-    margin:8px;
-    padding:8px;
     border-radius:20px;
+    font-size: 12px;
+    padding: 14px 17px;
+
 }
 
 .footer{
@@ -195,13 +193,12 @@ body{
     font-size: 15px;
     font-weight: 500;
 }
-.footer .footer-button{
+.footer-button{
     background-color: #ffffff;
     color:#000000;
-    font-size: 16px;
     font-weight: bold;
+    font-size: 16px;
     padding: 14px 30px;
-    border: 0px;
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
