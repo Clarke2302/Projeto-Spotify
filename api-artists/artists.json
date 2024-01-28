@@ -6,6 +6,8 @@
     { "id": 4, "name": "Chitãozinho e Xororó", "genre": "Sertanejo", "urlImg": "https://i.scdn.co/image/ab676161000051744606c59411c57f7b49588be4" },
     { "id": 5, "name": "Mc Coringa", "genre": "Funk", "urlImg": "https://i.scdn.co/image/ab67616d00001e02fe8f6dd361ad0f12b88c7f56" },
     { "id": 6, "name": "Arlindo Cruz", "genre": "Samba", "urlImg": "https://i.scdn.co/image/ab67616100005174181873f93056642d7b340839" },
-    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" }
+    { "id": 7, "name": "Caetano Veloso", "genre": "MPB", "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757" },
+    { "id": 8, "name": "Reneé Rapp", "genre": "Pop", "urlImg": "https://th.bing.com/th/id/R.2f543c843b60fa9c9d6f8ec80a6659b0?rik=BFtg6Dm1fwcgdQ&riu=http%3a%2f%2fd24jnm9llkb1ub.cloudfront.net%2ficpn%2f00602455867957%2f00602455867957-cover-225.jpg&ehk=YoFSc7XpAti%2fyoe%2brPiKcu%2fUuTA%2bj%2f63mLlzOFktgMs%3d&risl=&pid=ImgRaw&r=0"},
+    { "id": 9, "name": "Melanie Martinez", "genre": "Pop", "urlImg": "https://m.media-amazon.com/images/I/91PY4zmZezL._UF1000,1000_QL80_.jpg"}
     ]
 }
