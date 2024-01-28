@@ -3,7 +3,6 @@ body{
     background-color: var(--azul);
     font-family: var(--font-dm-sans);
 }
-
 .sidebar{
     position:fixed;
     top:0;
@@ -14,13 +13,13 @@ body{
 }
 
 .sidebar-navigation{
-    background-color: var(--cinzinha);
+    background-color: #121212;
     border-radius:8px;
     padding:16px 0 0 16px;
 }
 
 .logo{
-    background: var(--cinzinha);
+    background: #121212;
     display:flex;
     border-radius:8px ;
     padding:16px 0 0 16px;
@@ -47,7 +46,7 @@ body{
 }
 
 .library{
-    background-color:var(--cinzinha);
+    background-color:#121212;
     border-radius:8px;
     display:flex;
     justify-content: space-between;
@@ -109,7 +108,7 @@ body{
     flex-direction: column;
 }
 
-.section-playlist .section-playlist-content .text{
+.section-playlist-content .text{
     padding-bottom:14px;
     color:#FFF;
 }
@@ -155,17 +154,19 @@ body{
 }
 
 .languages .languages-button{
-    background-color: black;
-    color:white;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    color:#FFF;
     font-weight: bold;
     cursor:pointer;
+    width: 170px;
+    margin:8px;
+    padding:8px;
     border-radius:20px;
-    font-size: 12px;
-    padding: 14px 17px;
-
 }
 
-.footer{
+.disclaimer-premium {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -175,32 +176,31 @@ body{
     display: flex;
     justify-content: space-between;
 }
-
-.footer .footer-content .text{
+.disclaimer-premium .text {
     flex-shrink: 0;
 }
-
-.footer-content .title{
+.disclaimer-premium .disclaimer-premium-title {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 400;
-    font-weight: bold;
     font-size: 12px;
     margin-bottom: 10px;
 }
-.footer-content .subtitle{
+
+.disclaimer-premium .disclaimer-premium-subtitle {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
-.footer-button{
+
+.disclaimer-premium button {
     background-color: #ffffff;
-    color:#000000;
-    font-weight: bold;
+    color: #000000;
     font-size: 16px;
+    font-weight: bold;
     padding: 14px 30px;
+    border: 0px;
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
-    
 }
