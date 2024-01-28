@@ -10,11 +10,15 @@ function requestApi(searchTerm) {
 }
 
 function displayResults(result) {
+    console.log(result);
     resultPlaylist.classList.add("hidden")
     const artistName = document.getElementById('artist-name');
+    console.log("artistName"+artistName);
     const artistImage = document.getElementById('artist-img');
+    console.log("artistImage"+artistImage);
 
     result.forEach(element => {
+        console.log(element);
         artistName.innerText = element.name;
         artistImage.src = element.urlImg;
     });
